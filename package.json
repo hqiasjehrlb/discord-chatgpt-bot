@@ -1,0 +1,30 @@
+{
+  "name": "discord-chatgpt-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "start": "node .",
+    "dev": "nodemon --inspect -- ."
+  },
+  "author": "hqiasjehrlb@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chatgpt": "^5.0.8",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=18.14.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "nodemon": "^2.0.22",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}

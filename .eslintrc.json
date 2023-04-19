@@ -1,0 +1,62 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 13
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "curly": [
+            2,
+            "multi-line",
+            "consistent"
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "new-cap": [
+            "error",
+            {
+                "newIsCap": true,
+                "newIsCapExceptions": [],
+                "capIsNew": false
+            }
+        ],
+        "no-var": "error",
+        "prefer-const": "error",
+        "prefer-template": "error",
+        "eqeqeq": "error",
+        "no-trailing-spaces": [
+            "error",
+            {
+                "ignoreComments": true
+            }
+        ],
+        "valid-typeof": "error",
+        "space-before-blocks": "error",
+        "space-before-function-paren": "error"
+    }
+}
